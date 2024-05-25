@@ -1,0 +1,29 @@
+.table-container {
+    margin: auto;
+    margin-top: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+ 
+  }
+  
+  .postman-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .postman-table th,
+  .postman-table td {
+    padding: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  .postman-table th {
+    background-color: #f5f5f5;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .postman-table tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  
